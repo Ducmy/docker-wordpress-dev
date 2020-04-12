@@ -20,9 +20,9 @@ http://localhost
  
 
 #### URL phpadmin:
-    Access [localhost][http://localhost/]
+    Access [localhost](http://localhost/)
 
 #### Database User:
-    Access [localhost:8080][http://localhost:8080]
+    Access [localhost:8080](http://localhost:8080)
     user:     root
     password: root
