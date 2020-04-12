@@ -16,13 +16,15 @@
     $docker-sync stop;
 
 #### URL wordpress:
-http://localhost
+
+ Access [localhost](http://localhost)
  
 
 #### URL phpadmin:
-    Access [localhost](http://localhost/)
+
+  Access [localhost:8080](http://localhost:8080)
 
 #### Database User:
-    Access [localhost:8080](http://localhost:8080)
+    
     user:     root
     password: root
