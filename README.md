@@ -3,7 +3,7 @@
 
 #### Clone source from GitHub
 
-    $git clone https://github.com/Ducmy/wp_docker.git
+    $git clone https://github.com/Ducmy/docker-wordpress-dev
     $git checkout master
 
 #### Install Docker & Docker-Sync
