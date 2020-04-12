@@ -1,0 +1,182 @@
+          ok  Starting native_osx for sync wordpress
+          ok  wordpress container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: wordpress
+[2020-04-12 21:04:34 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:04:25.54 on 12 Apr 2020
+[2020-04-12 21:04:34 +0700] Sync Log:  [BGN] Copying license.txt from /app_sync to /host_sync
+[2020-04-12 21:04:34 +0700] Sync Log:  [END] Copying license.txt
+[2020-04-12 21:04:34 +0700] Sync Log:  [BGN] Copying readme.html from /app_sync to /host_sync
+[2020-04-12 21:04:34 +0700] Sync Log:  [END] Copying readme.html
+[2020-04-12 21:04:34 +0700] Sync Log:  [BGN] Copying wp-activate.php from /app_sync to /host_sync
+[2020-04-12 21:04:34 +0700] Sync Log:  [END] Copying wp-activate.php
+[2020-04-12 21:04:34 +0700] Sync Log:  [BGN] Copying wp-admin from /app_sync to /host_sync
+[2020-04-12 21:04:34 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:04:33.11 on 12 Apr 2020
+[2020-04-12 21:04:34 +0700] Sync Log:  [BGN] Copying wp-admin from /app_sync to /host_sync
+[2020-04-12 21:04:44 +0700] Sync Log:  [END] Copying wp-admin
+[2020-04-12 21:04:44 +0700] Sync Log:  [BGN] Copying wp-blog-header.php from /app_sync to /host_sync
+[2020-04-12 21:04:44 +0700] Sync Log:  [END] Copying wp-blog-header.php
+[2020-04-12 21:04:44 +0700] Sync Log:  [BGN] Copying wp-config-sample.php from /app_sync to /host_sync
+[2020-04-12 21:04:44 +0700] Sync Log:  Failed: The source file /app_sync/wp-config-sample.php
+[2020-04-12 21:04:44 +0700] Sync Log:  has been modified during synchronization.  Transfer aborted.
+[2020-04-12 21:04:44 +0700] Sync Log:  [BGN] Copying wp-content from /app_sync to /host_sync
+[2020-04-12 21:04:53 +0700] Sync Log:  [END] Copying wp-content
+[2020-04-12 21:04:53 +0700] Sync Log:  [BGN] Copying wp-cron.php from /app_sync to /host_sync
+[2020-04-12 21:04:53 +0700] Sync Log:  [END] Copying wp-cron.php
+[2020-04-12 21:04:53 +0700] Sync Log:  [BGN] Copying wp-includes from /app_sync to /host_sync
+[2020-04-12 21:05:09 +0700] Sync Log:  [END] Copying wp-includes
+[2020-04-12 21:05:09 +0700] Sync Log:  [BGN] Copying wp-links-opml.php from /app_sync to /host_sync
+[2020-04-12 21:05:09 +0700] Sync Log:  [END] Copying wp-links-opml.php
+[2020-04-12 21:05:09 +0700] Sync Log:  [BGN] Copying wp-load.php from /app_sync to /host_sync
+[2020-04-12 21:05:09 +0700] Sync Log:  [END] Copying wp-load.php
+[2020-04-12 21:05:09 +0700] Sync Log:  [BGN] Copying wp-login.php from /app_sync to /host_sync
+[2020-04-12 21:05:09 +0700] Sync Log:  [END] Copying wp-login.php
+[2020-04-12 21:05:09 +0700] Sync Log:  [BGN] Copying wp-mail.php from /app_sync to /host_sync
+[2020-04-12 21:05:09 +0700] Sync Log:  [END] Copying wp-mail.php
+[2020-04-12 21:05:09 +0700] Sync Log:  [BGN] Copying wp-settings.php from /app_sync to /host_sync
+[2020-04-12 21:05:09 +0700] Sync Log:  [END] Copying wp-settings.php
+[2020-04-12 21:05:09 +0700] Sync Log:  [BGN] Copying wp-signup.php from /app_sync to /host_sync
+[2020-04-12 21:05:09 +0700] Sync Log:  [END] Copying wp-signup.php
+[2020-04-12 21:05:09 +0700] Sync Log:  [BGN] Copying wp-trackback.php from /app_sync to /host_sync
+[2020-04-12 21:05:09 +0700] Sync Log:  [END] Copying wp-trackback.php
+[2020-04-12 21:05:09 +0700] Sync Log:  [BGN] Copying xmlrpc.php from /app_sync to /host_sync
+[2020-04-12 21:05:09 +0700] Sync Log:  [END] Copying xmlrpc.php
+[2020-04-12 21:05:09 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:05:09.68 on 12 Apr 2020
+[2020-04-12 21:05:09 +0700] Sync Log:  Synchronization incomplete at 21:05:09  (13 items transferred, 0 skipped, 1 failed)
+[2020-04-12 21:05:09 +0700] Sync Log:    failed: wp-config-sample.php
+[2020-04-12 21:05:16 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:05:16.77 on 12 Apr 2020
+[2020-04-12 21:05:16 +0700] Sync Log:  [BGN] Copying .htaccess from /app_sync to /host_sync
+[2020-04-12 21:05:16 +0700] Sync Log:  [END] Copying .htaccess
+[2020-04-12 21:05:16 +0700] Sync Log:  [BGN] Copying index.php from /app_sync to /host_sync
+[2020-04-12 21:05:16 +0700] Sync Log:  [END] Copying index.php
+[2020-04-12 21:05:16 +0700] Sync Log:  [BGN] Copying wp-comments-post.php from /app_sync to /host_sync
+[2020-04-12 21:05:16 +0700] Sync Log:  [END] Copying wp-comments-post.php
+[2020-04-12 21:05:16 +0700] Sync Log:  [BGN] Copying wp-config-sample.php from /app_sync to /host_sync
+[2020-04-12 21:05:16 +0700] Sync Log:  [END] Copying wp-config-sample.php
+[2020-04-12 21:05:16 +0700] Sync Log:  [BGN] Copying wp-config.php from /app_sync to /host_sync
+[2020-04-12 21:05:16 +0700] Sync Log:  [END] Copying wp-config.php
+[2020-04-12 21:05:16 +0700] Sync Log:  [BGN] Copying properties for wp-includes from /app_sync to /host_sync
+[2020-04-12 21:05:16 +0700] Sync Log:  [END] Copying properties for wp-includes
+[2020-04-12 21:05:16 +0700] Sync Log:  [BGN] Copying wp-includes/Requests from /app_sync to /host_sync
+[2020-04-12 21:05:20 +0700] Sync Log:  [END] Copying wp-includes/Requests
+[2020-04-12 21:05:20 +0700] Sync Log:  [BGN] Copying wp-includes/SimplePie from /app_sync to /host_sync
+[2020-04-12 21:05:21 +0700] Sync Log:  [END] Copying wp-includes/SimplePie
+[2020-04-12 21:05:21 +0700] Sync Log:  [BGN] Copying wp-includes/author-template.php from /app_sync to /host_sync
+[2020-04-12 21:05:21 +0700] Sync Log:  [END] Copying wp-includes/author-template.php
+[2020-04-12 21:05:21 +0700] Sync Log:  [BGN] Copying wp-includes/bookmark-template.php from /app_sync to /host_sync
+[2020-04-12 21:05:21 +0700] Sync Log:  [END] Copying wp-includes/bookmark-template.php
+[2020-04-12 21:05:21 +0700] Sync Log:  [BGN] Copying wp-includes/canonical.php from /app_sync to /host_sync
+[2020-04-12 21:05:21 +0700] Sync Log:  [END] Copying wp-includes/canonical.php
+[2020-04-12 21:05:21 +0700] Sync Log:  [BGN] Copying wp-includes/capabilities.php from /app_sync to /host_sync
+[2020-04-12 21:05:21 +0700] Sync Log:  [END] Copying wp-includes/capabilities.php
+[2020-04-12 21:05:21 +0700] Sync Log:  [BGN] Copying wp-includes/category.php from /app_sync to /host_sync
+[2020-04-12 21:05:21 +0700] Sync Log:  [END] Copying wp-includes/category.php
+[2020-04-12 21:05:21 +0700] Sync Log:  [BGN] Copying wp-includes/class-IXR.php from /app_sync to /host_sync
+[2020-04-12 21:05:21 +0700] Sync Log:  [END] Copying wp-includes/class-IXR.php
+[2020-04-12 21:05:21 +0700] Sync Log:  [BGN] Copying wp-includes/class-feed.php from /app_sync to /host_sync
+[2020-04-12 21:05:21 +0700] Sync Log:  [END] Copying wp-includes/class-feed.php
+[2020-04-12 21:05:21 +0700] Sync Log:  [BGN] Copying wp-includes/class-json.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-json.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-requests.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-requests.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-walker-comment.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-walker-comment.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-walker-page-dropdown.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-walker-page-dropdown.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-admin-bar.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-admin-bar.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-dependency.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-dependency.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-feed-cache-transient.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-feed-cache-transient.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-http-cookie.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-http-cookie.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-http-encoding.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-http-encoding.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-http-requests-hooks.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-http-requests-hooks.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-http-response.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-http-response.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-image-editor-imagick.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-image-editor-imagick.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-locale.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-locale.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-matchesmapregex.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-matchesmapregex.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-paused-extensions-storage.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-paused-extensions-storage.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-post-type.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-post-type.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-recovery-mode-link-service.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-recovery-mode-link-service.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-recovery-mode.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-recovery-mode.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-role.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-role.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-session-tokens.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-session-tokens.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-site-query.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-site-query.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-text-diff-renderer-inline.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-text-diff-renderer-inline.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-user-query.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-user-query.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class-wp-widget-factory.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class-wp-widget-factory.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/class.wp-scripts.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/class.wp-scripts.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/compat.php from /app_sync to /host_sync
+[2020-04-12 21:05:22 +0700] Sync Log:  [END] Copying wp-includes/compat.php
+[2020-04-12 21:05:22 +0700] Sync Log:  [BGN] Copying wp-includes/customize from /app_sync to /host_sync
+[2020-04-12 21:05:23 +0700] Sync Log:  [END] Copying wp-includes/customize
+[2020-04-12 21:05:23 +0700] Sync Log:  [BGN] Copying wp-includes/default-filters.php from /app_sync to /host_sync
+[2020-04-12 21:05:23 +0700] Sync Log:  [END] Copying wp-includes/default-filters.php
+[2020-04-12 21:05:23 +0700] Sync Log:  [BGN] Copying wp-includes/embed-template.php from /app_sync to /host_sync
+[2020-04-12 21:05:23 +0700] Sync Log:  [END] Copying wp-includes/embed-template.php
+[2020-04-12 21:05:23 +0700] Sync Log:  [BGN] Copying wp-includes/feed-atom.php from /app_sync to /host_sync
+[2020-04-12 21:05:23 +0700] Sync Log:  [END] Copying wp-includes/feed-atom.php
+[2020-04-12 21:05:23 +0700] Sync Log:  [BGN] Copying wp-includes/feed-rss.php from /app_sync to /host_sync
+[2020-04-12 21:05:23 +0700] Sync Log:  [END] Copying wp-includes/feed-rss.php
+[2020-04-12 21:05:23 +0700] Sync Log:  [BGN] Copying wp-includes/fonts from /app_sync to /host_sync
+[2020-04-12 21:05:23 +0700] Sync Log:  [END] Copying wp-includes/fonts
+[2020-04-12 21:05:23 +0700] Sync Log:  [BGN] Copying wp-includes/functions.php from /app_sync to /host_sync
+[2020-04-12 21:05:23 +0700] Sync Log:  [END] Copying wp-includes/functions.php
+[2020-04-12 21:05:23 +0700] Sync Log:  [BGN] Copying wp-includes/functions.wp-scripts.php from /app_sync to /host_sync
+[2020-04-12 21:05:24 +0700] Sync Log:  [END] Copying wp-includes/functions.wp-scripts.php
+[2020-04-12 21:05:24 +0700] Sync Log:  [BGN] Copying wp-includes/http.php from /app_sync to /host_sync
+[2020-04-12 21:05:24 +0700] Sync Log:  [END] Copying wp-includes/http.php
+[2020-04-12 21:05:24 +0700] Sync Log:  [BGN] Copying wp-includes/images from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/images
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/ms-deprecated.php from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/ms-deprecated.php
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/ms-files.php from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/ms-files.php
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/nav-menu-template.php from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/nav-menu-template.php
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/option.php from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/option.php
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/pluggable-deprecated.php from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/pluggable-deprecated.php
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/post-template.php from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/post-template.php
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/post.php from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/post.php
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/registration.php from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/registration.php
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/rss-functions.php from /app_sync to /host_sync
+[2020-04-12 21:05:26 +0700] Sync Log:  [END] Copying wp-includes/rss-functions.php
+[2020-04-12 21:05:26 +0700] Sync Log:  [BGN] Copying wp-includes/sodium_compat from /app_sync to /host_sync
+[2020-04-12 21:05:27 +0700] Sync Log:  [END] Copying wp-includes/sodium_compat
+[2020-04-12 21:05:27 +0700] Sync Log:  [BGN] Copying wp-includes/spl-autoload-compat.php from /app_sync to /host_sync
+[2020-04-12 21:05:27 +0700] Sync Log:  [END] Copying wp-includes/spl-autoload-compat.php
+[2020-04-12 21:05:27 +0700] Sync Log:  [BGN] Copying wp-includes/taxonomy.php from /app_sync to /host_sync
+[2020-04-12 21:05:27 +0700] Sync Log:  [END] Copying wp-includes/taxonomy.php
+[2020-04-12 21:05:27 +0700] Sync Log:  [BGN] Copying wp-includes/theme-compat from /app_sync to /host_sync
+[2020-04-12 21:05:27 +0700] Sync Log:  [END] Copying wp-includes/theme-compat
+[2020-04-12 21:05:27 +0700] Sync Log:  [BGN] Copying wp-includes/widgets.php from /app_sync to /host_sync
+[2020-04-12 21:05:27 +0700] Sync Log:  [END] Copying wp-includes/widgets.php
+[2020-04-12 21:05:27 +0700] Sync Log:  [BGN] Copying wp-includes/wlwmanifest.xml from /app_sync to /host_sync
+[2020-04-12 21:05:27 +0700] Sync Log:  [END] Copying wp-includes/wlwmanifest.xml
+[2020-04-12 21:05:27 +0700] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:05:27.16 on 12 Apr 2020
+[2020-04-12 21:05:27 +0700] Sync Log:  Synchronization complete at 21:05:27  (66 items transferred, 0 skipped, 0 failed)
